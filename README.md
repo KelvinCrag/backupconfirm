@@ -35,6 +35,6 @@ This script uses a system app called com.android.backupconfirm to backup and res
 - Go to the [release section](https://github.com/KelvinCrag/backupconfirm/releases) and download the lastest release.
 
 - Put .bat in the same folder of installed adb. By default it is c:/adb/platform-tools et voilà !
-```
+
 
 
