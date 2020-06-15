@@ -36,5 +36,7 @@ This script uses a system app called **com.android.backupconfirm** to backup and
 
 - Put .bat in the same folder of installed adb. By default it is c:/adb/platform-tools et voilà !
 
-
+```
+batch backupconfirm.bat
+```
 
