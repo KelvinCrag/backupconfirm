@@ -15,7 +15,7 @@ This script uses a system app called `com.android.backupconfirm` to backup and r
 - Turn on `USB Debugging`.
 
 ### LINUX
-- Install *Android platform tools* with your package manager :
+- Install `Android platform tools` with your package manager :
 
  	Debian Base : 
  	```console
