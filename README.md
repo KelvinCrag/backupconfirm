@@ -2,7 +2,7 @@
 **DISCLAIMER**: Google warns that ADB backup and restore may be removed in a future Android release.
 
 ## Summary
-This script uses a system app called **com.android.backupconfirm** to backup and restore your stored data at a time convenient for you.
+This script uses a system app called `com.android.backupconfirm` to backup and restore your stored data at a time convenient for you.
 
 ## Features
 * [X] Lightweight simple script. Concise and optimised.
@@ -11,8 +11,8 @@ This script uses a system app called **com.android.backupconfirm** to backup and
 * [X] noob-friendly
 
 ## How to use it 
-- Enable *Developer Options* on your smartphone.
-- Turn on *USB Debugging*.
+- Enable `Developer Options` on your smartphone.
+- Turn on `USB Debugging`.
 
 ### LINUX
 - Install *Android platform tools* with your package manager :
@@ -26,7 +26,7 @@ This script uses a system app called **com.android.backupconfirm** to backup and
  	pacman -S android-tools
 	```
 
-- use **adb backup -apk -shared -all -f <filepath>/backup.ab** to backup and **adb restore <filepath>/backup.ab** to restore
+- Use `adb backup -apk -shared -all -f <filepath>/backup.ab` to backup and `adb restore <filepath>/backup.ab` to restore.
 
 
 ### WINDOWS
@@ -34,7 +34,7 @@ This script uses a system app called **com.android.backupconfirm** to backup and
 
 - Go to the [release section](https://github.com/KelvinCrag/backupconfirm/releases) and download the lastest release.
 
-- Put .bat in the same folder of installed adb if you don't have adb support everywhere in your PC. By default it is c:/adb/platform-tools et voilà !
+- Put .bat in the same folder of installed adb if you don't have adb support everywhere in your PC. By default it is `c:/adb/platform-tools` et voilà !
 
 ```
 batch backupconfirm.bat
