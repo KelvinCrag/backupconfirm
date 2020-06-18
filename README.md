@@ -11,9 +11,8 @@ This script uses a system app called `com.android.backupconfirm` to backup and r
 * [X] noob-friendly
 
 ## How to use it 
-- Enable `Developer Options` on your smartphone.
-- Turn on `USB Debugging`.
-<p>
+- Enable *Developer Options* on your smartphone.
+- Turn on *USB Debugging* from the developper panel.<p>
 <details>
 <summary>LINUX</summary>
 
