@@ -13,25 +13,52 @@ This script uses a system app called `com.android.backupconfirm` to backup and r
 ## How to use it 
 - Enable `Developer Options` on your smartphone.
 - Turn on `USB Debugging`.
+<p>
+<details>
+<summary>LINUX</summary>
 
-### LINUX
-- Install `Android platform tools` with your package manager :
+- Install `Android platform tools` and *qpdf* on your PC :
 
- 	Debian Base : 
- 	```console
-	apt-get install android-sdk-platform-tools
- 	```
- 	Arch-Linux Base :
- 	```console
- 	pacman -S android-tools
-	```
-
+Debian Base :
+```bash
+$ sudo apt install android-sdk-platform-tools qpdf
+```
+Arch-Linux Base :
+```bash
+$ sudo pacman -S android-tools qpdf
+```
+Fedora :
+```bash
+$ sudo yum install android-tools qpdf
+```
 - Use `adb backup -apk -shared -all -f <filepath>/backup.ab` to backup and `adb restore <filepath>/backup.ab` to restore.
+</details>
+</p>
+
+<p>
+<details>
+<summary>MAC OS</summary>
+
+- Install [Homebrew](https://brew.sh/)
+- Install *Android platform tools* and *qpdf*
+```bash
+$ brew install android-platform-tools qpdf
+```
+- Use `adb backup -apk -shared -all -f <filepath>/backup.ab` to backup and `adb restore <filepath>/backup.ab` to restore.
+</details>
+</p>
+
+<p>
+<details>
+<summary>WINDOWS</summary>
 
 
-### WINDOWS
-- Install [ADB](https://dl.google.com/android/repository/platform-tools-latest-windows.zip). If you want ADB support everywhere on your PC, you need to add the path of the ADB folder in the system variables (see [this](https://www.xda-developers.com/adb-fastboot-any-directory-windows-linux/)).
-
+- Download [android platform tools](https://dl.google.com/android/repository/platform-tools-latest-windows.zip) and unzip it somewhere. [Add the folder to your PATH](https://www.architectryan.com/2018/03/17/add-to-the-path-on-windows-10/).
+- [Install USB drivers of your device](https://developer.android.com/studio/run/oem-usb#Drivers)
+- Check your device is detected :
+```batch
+ adb devices
+```
 - Go to the [release section](https://github.com/KelvinCrag/backupconfirm/releases) and download the lastest release.
 
 - Put .bat in the same folder of installed adb if you don't have adb support everywhere in your PC. By default it is `c:/adb/platform-tools` et voilà !
@@ -39,4 +66,7 @@ This script uses a system app called `com.android.backupconfirm` to backup and r
 ```
 batch backupconfirm.bat
 ```
+</details>
+</p>
 
+ 
