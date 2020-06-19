@@ -16,7 +16,7 @@ This script uses a system app called `com.android.backupconfirm` to backup and r
 <details>
 <summary>LINUX</summary>
 
-- Install `Android platform tools` and *qpdf* on your PC :
+- Install *Android platform tools* and *qpdf* on your PC :
 
 Debian Base :
 ```bash
