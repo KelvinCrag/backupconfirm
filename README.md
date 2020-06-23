@@ -60,10 +60,10 @@ $ brew install android-platform-tools qpdf
 ```
 - Go to the [release section](https://github.com/KelvinCrag/backupconfirm/releases) and download the lastest release.
 
-- Put .bat in the same folder of installed adb if you don't have adb support everywhere in your PC. By default it is `c:/adb/platform-tools`
+- Put .bat in the same folder of installed adb if you don't have adb support everywhere in your PC. By default, it is `c:/adb/platform-tools`
 
 ```
-batch backupconfirm.bat
+backupconfirm.bat
 ```
 </details>
 </p>
