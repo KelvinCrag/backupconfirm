@@ -67,6 +67,4 @@ backupconfirm.bat
 ```
 </details>
 </p>
-
-- adiós amigos
  
