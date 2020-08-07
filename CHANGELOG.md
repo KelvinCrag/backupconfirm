@@ -1,10 +1,7 @@
-# Initial Release (v1.0)
+Revamped script (v2.0)
+- Added automated process for detecting connected device and ADB
+- Added suggestions when script doesn't detect ADB and/or your device
+- Improved screen feedback on what is currently happening
+- Added in-script troubleshooting
 
-### Features :
-- **Lightweight simple script. Concise and optimised.**
-
-- **Ability to backup and restore data without installing an app or the use of internet.**
-
-- **Improved screen feedback on what is happening currently.**
-
-- **noob-friendly**
+> Initial Release (v1.0)
